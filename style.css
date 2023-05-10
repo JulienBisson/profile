@@ -1,0 +1,140 @@
+
+body {
+  color: #463F3A;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  line-height: 10px;
+}
+
+#bg-img {
+  background-image: url(images/univers3.jpeg);
+  background-size: cover;
+}
+
+a {
+  color : #8A817C;
+  text-decoration: none;
+}
+
+#user-img {
+width: 200px;
+height: 200px;
+object-fit: contain;
+border: 3px solid #353535;
+border-radius: 60px;
+}
+
+.container {
+  height: 200px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: #3C6E71;
+  margin: 15px;
+  padding: 30px;
+  border: 1px solid #284B63;
+  text-align: center;
+  border-radius: 35px;
+}
+
+.link:hover {
+  background-color: #3C6E71;
+  color: white;
+}
+
+ul {
+display: block;
+list-style-type: disc;
+margin-block-start: 25px;
+padding-inline-start: 0px;
+}
+
+.list-inline li {
+  list-style: none;
+  margin-inline: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.link i {
+  font-size: 40px;
+  color: #284B63;
+  transition: all 0.3s;
+}
+
+.link i:hover {
+  color: #FFFFFF;
+  transform: scale(1.2);
+}
+
+h1 {
+  color: #353535;
+  font-size: 32px;
+  font-family: 'Ubuntu', sans-serif;
+}
+h2, h3 {
+  color: #353535;
+  font-size: 23px;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: underline;
+}
+
+p {
+  color: #353535;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: light;
+  margin-auto: 0 auto;
+  line-height: 20px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  /* Pour un écran < 1440px, cette classe CSS s'applique */
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 1440px, cette classe CSS s'applique */
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Pour un écran < 768px, cette classe CSS s'applique */
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Pour un écran < 768px, cette classe CSS s'applique */
+  .container {
+    width: 80%;
+  }
+  h1 {
+    text-overflow: clip;
+  }
+}
+
+@media (max-width: 375px) {
+  /* Pour un écran < 768px, cette classe CSS s'applique */
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Pour un écran < 320px, cette classe CSS s'applique */
+  .container {
+    width: 90%;
+  }
+}
