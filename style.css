@@ -7,8 +7,8 @@ body {
 }
 
 #bg-img {
-  background-image: url(images/univers3.jpeg);
-  background-size: cover;
+  background: rgb(36,0,0);
+  background: radial-gradient(circle, rgba(36,0,0,0.9738489145658263) 0%, rgba(9,112,121,1) 46%, rgba(36,0,0,1) 100%);
 }
 
 a {
@@ -22,6 +22,15 @@ height: 200px;
 object-fit: contain;
 border: 3px solid #353535;
 border-radius: 60px;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+
+#user-img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
 
 .container {
